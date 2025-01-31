@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
     <!-- DaisyUI CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -15,6 +16,7 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
 
     <style>
       .font-adlam{
@@ -34,6 +36,10 @@
               'pet-primary': '#E76F51',
               'pet-primary-bg': '#FFF9F4',
             },
+            backgroundImage: {
+                'my-gradient': 'linear-gradient(to right, var(--tw-gradient-stops))', // Existing gradient
+                'amber-yellow': 'linear-gradient(to right, var(--tw-gradient-stops))', // New gradient
+              },
           },
         },
       }
@@ -105,7 +111,7 @@
             class="max-w-full  object-cover md:w-full h-full"
           />
         </div>
-        <div class="hero-content relative z-10 w-full h-full">
+        <div class="relative z-10 w-full h-full">
                 <div class="max-w-fit absolute top-14 left-12 md:max-w-3xl ">
                   <h1 class="mb-5 text-4xl font-adlam md:text-6xl ">Pamper Your Pet, <br>Because They Deserve <br> the Bes</h1>
             <p class="mb-5">
@@ -188,6 +194,140 @@
          </div>
     
     </div>  
+
+    <!-- pet products -->
+     <div class="bg-[#FFF9F4]">
+        <div class="mt-16 md:container mx-auto"><h3 class="mb-12 font-adlam text-4xl">Trending Pet Products</h3>
+            <!-- t-shirt -->
+           <div class="grid grid-cols-1 md:grid-cols-2 gap-3 ">
+            <!-- <div>
+                <img src="assets/cute-pet-mid.png" alt="">
+            </div> -->
+             <div class="hero min-h-screen relative  bg-[#F9DF8A] w-full md: ">
+                <div class="absolute">
+                  <img 
+                    src="assets/cute-pet-small.png"
+                    alt="Hero background"
+                    class=" object-cover "
+                  />
+                </div>
+                <div class="relative z-10 w-full h-full">
+                        <div class="max-w-fit absolute top-14 left-12 md:max-w-3xl ">
+                          <h3 class="font-adlam text-3xl ">T-shirt For Dogs</h3>
+                    <p class="mb-5">
+                        Discover a world of treats, toys, and essentials handpicked for 
+                    </p>
+                    <button class="btn font-sora text-base bg-[#FFFFFF]">Shop Now</button>
+                  </div>
+                </div>
+              </div>
+              <!-- rating -->
+               <div class="grid grid-cols-2 gap-1  md:grid-cols-3">
+                <div class="flex justify-center items-center gap-2 bg-[#FFFFFF] border-2 border-gray-200">
+                    <div class="bg-[#FFF9F4]"><img src="assets/dog-cartoon.png" alt=""></div>
+                    <div><p>4.5</p>
+                         <p>Pet Bed</p>
+                         <p>$39.99</p>
+                </div>
+                </div>
+                <div class="flex justify-center items-center gap-2 bg-[#FFFFFF] border-2 border-gray-200">
+                    <div class="bg-[#FFF9F4]"><img src="assets/fish-cartoon.png" alt=""></div>
+                    <div><p><i class="fa-sharp-duotone fa-thin fa-star-sharp" style="--fa-primary-color: #ffd43b; --fa-secondary-color: #ffd43b;"></i>4.5</p>
+                         <p>Pet Bed</p>
+                         <p>$39.99</p>
+                </div>
+                </div>
+                <div class="flex justify-center items-center gap-2 bg-[#FFFFFF] border-2 border-gray-200">
+                    <div class="bg-[#FFF9F4]"><img src="assets/bird-cartoon.png" alt=""></div>
+                    <div><p><i class="fa-sharp-duotone fa-thin fa-star-sharp" style="--fa-primary-color: #ffd43b; --fa-secondary-color: #ffd43b;"></i>4.5</p>
+                         <p>Pet Bed</p>
+                         <p>$39.99</p>
+                </div>
+                </div>
+                <div class="flex justify-center items-center gap-2 bg-[#FFFFFF] border-2 border-gray-200">
+                    <div class="bg-[#FFF9F4]"><img src="assets/rabbit-cartoon.png" alt=""></div>
+                    <div><p><i class="fa-sharp-duotone fa-thin fa-star-sharp" style="--fa-primary-color: #ffd43b; --fa-secondary-color: #ffd43b;"></i>4.5</p>
+                         <p>Pet Bed</p>
+                         <p>$39.99</p>
+                </div>
+                </div>
+                <div class="flex justify-center items-center gap-2 bg-[#FFFFFF] border-2 border-gray-200">
+                    <div class="bg-[#FFF9F4]"><img src="assets/bird-cartoon.png" alt=""></div>
+                    <div><p><i class="fa-sharp-duotone fa-thin fa-star-sharp" style="--fa-primary-color: #ffd43b; --fa-secondary-color: #ffd43b;"></i>4.5</p>
+                         <p>Pet Bed</p>
+                         <p>$39.99</p>
+                </div>
+                </div>
+                <div class="flex justify-center items-center gap-2 bg-[#FFFFFF] border-2 border-gray-200">
+                    <div class="bg-[#FFF9F4]"><img src="assets/pet-couch.png" alt=""></div>
+                    <div><p><i class="fa-sharp-duotone fa-thin fa-star-sharp" style="--fa-primary-color: #ffd43b; --fa-secondary-color: #ffd43b;"></i>4.5</p>
+                         <p>Pet Bed</p>
+                         <p>$39.99</p>
+                </div>
+                </div>
+                <div class="flex justify-center items-center gap-2 bg-[#FFFFFF] border-2 border-gray-200">
+                    <div class="bg-[#FFF9F4]"><img src="assets/fish-cartoon.png" alt=""></div>
+                    <div><p><i class="fa-sharp-duotone fa-thin fa-star-sharp" style="--fa-primary-color: #ffd43b; --fa-secondary-color: #ffd43b;"></i>4.5</p>
+                         <p>Pet Bed</p>
+                         <p>$39.99</p>
+                </div>
+                </div>
+                <div class="flex justify-center items-center gap-2 bg-[#FFFFFF] border-2 border-gray-200">
+                    <div class="bg-[#FFF9F4]"><img src="assets/pet-couch.png" alt=""></div>
+                    <div><p><i class="fa-sharp-duotone fa-thin fa-star-sharp" style="--fa-primary-color: #ffd43b; --fa-secondary-color: #ffd43b;"></i>4.5</p>
+                         <p>Pet Bed</p>
+                         <p>$39.99</p>
+                </div>
+                </div>
+                <div class="flex justify-center items-center gap-2 bg-[#FFFFFF] border-2 border-gray-200">
+                    <div class="bg-[#FFF9F4]"><img src="assets/rabbit-cartoon.png" alt=""></div>
+                    <div><p><i class="fa-sharp-duotone fa-thin fa-star-sharp" style="--fa-primary-color: #ffd43b; --fa-secondary-color: #ffd43b;"></i>4.5</p>
+                         <p>Pet Bed</p>
+                         <p>$39.99</p>
+                </div>
+                </div>
+               </div>
+            </div>
+
+
+
+        </div>
+
+     </div>
+
+     <!-- low price -->
+
+     <div class="md:container mx-auto" >
+        <h3 class="mb-12 font-adlam text-4xl">Everyday low price</h3>
+        <div class="flex-column gap-4 md:flex">
+        <div class="flex justify-between items-center bg-my-gradient from-violet-200 to-pink-200 md:w-2/3 ">
+           <div class="pl-20">
+            <p>Under Price</p>
+            <h4>Pet Grooming Mitt</h4>
+            <p>(Easy Hair Removal)</p>
+            <h2>$7.99</h2>
+           </div>
+           <div class="pr-20">
+            <img src="assets/cute-dog-mid.png" alt="">
+
+           </div>
+
+        </div>
+        <div class="flex bg-amber-yellow from-amber-200 to-yellow-500 ">
+            <div>
+                <h4>T-shirt for Dogs</h4>
+                <p>$7.99</p>
+                </div>
+
+                <div>
+                    <img src="assets/cute-pet-mid.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+     </div>
+     
        
      
 
